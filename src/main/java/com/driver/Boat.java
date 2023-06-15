@@ -24,4 +24,10 @@ public class Boat {
     public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
+    public String getVehicleName(){
+        return this.name;
+    }
+    public int getVehicleCapacity(){
+        return this.capacity;
+    }
 }
